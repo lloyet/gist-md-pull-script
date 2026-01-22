@@ -42,28 +42,6 @@ const PER_PAGE = 100;
 				git.clone(gitPullUrl, `${OUTPUT_PATH}/${gistRepoName}`);
 
 				gitRepoCloned++;
-				/*
-				
-
-				for (const filename of filenames) {
-					const gistFile = gist.files[filename];
-
-					if (!gistFile || !gistFile.raw_url) continue;
-
-					const responseFile = await fetch(gistFile.raw_url);
-
-					if (!responseFile.ok) continue;
-
-					const fileData = await responseFile.text();
-
-					fs.writeFileSync(`${OUTPUT_PATH}/${filename}`, fileData, {
-						encoding: "utf-8",
-					});
-
-					console.log(`File ${filename} downloaded.`);
-
-					filesDownloaded++;
-				}*/
 			}
 
 			page++;
