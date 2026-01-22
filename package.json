@@ -1,0 +1,33 @@
+{
+	"name": "gist-md-pull-script",
+	"version": "1.0.0",
+	"description": "",
+	"homepage": "https://github.com/lloyet/gist-md-pull-script#readme",
+	"bugs": {
+		"url": "https://github.com/lloyet/gist-md-pull-script/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lloyet/gist-md-pull-script.git"
+	},
+	"license": "ISC",
+	"author": "lloyet",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"start": "node --unhandled-rejections=strict index.js"
+	},
+	"devDependencies": {
+		"@eslint/compat": "^2.0.1",
+		"@eslint/js": "^9.39.2",
+		"@types/node": "^25.0.10",
+		"dotenv": "^17.2.3",
+		"eslint": "^9.39.2",
+		"eslint-config-prettier": "^10.1.8",
+		"globals": "^17.0.0",
+		"prettier": "^3.8.1"
+	},
+	"dependencies": {
+		"simple-git": "^3.30.0"
+	}
+}
